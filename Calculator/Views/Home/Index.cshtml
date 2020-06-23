@@ -1,0 +1,31 @@
+﻿@model Calculator.Models.CalculatorModel
+@{
+    ViewData["Title"] = "Calculator";
+}
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="form-group">
+        <div class="row">
+            <label asp-for="NumberA" class="col-lg-2"></label>
+            <input id="number-a" type="number" asp-for="NumberA" class="col-lg-2" />
+        </div>
+        <div class="row">
+            <label asp-for="NumberB" class="col-lg-2"></label>
+            <input id="number-b" type="number" asp-for="NumberB" class="col-lg-2" />
+        </div>
+        <div class="row">
+            <label asp-for="operation" class="col-lg-2"></label>
+            <select id="operation" asp-for="operation" class="col-lg-2" asp-items="Html.GetEnumSelectList<Calculator.Models.Operation>()">
+                <option selected="selected" value="">Select</option>
+            </select>
+        </div>
+        <div class="row">
+            <label asp-for="Result" class="col-lg-2"></label>
+            <input id="result" type="number" disabled="disabled" class="col-lg-2" asp-for="Result" />
+        </div>
+        <div class="row">
+            <input id="submit" type="submit" value="Submit" class="col-lg-2"/>
+        </div>
+    </div>
+}

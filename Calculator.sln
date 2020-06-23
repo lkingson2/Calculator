@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{236500DF-CBD5-4DC5-9BFF-456177AC2583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{3806EE38-B738-4E37-A1B3-38456855DCBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedTests", "AutomatedTests\AutomatedTests.csproj", "{E25C0B95-B90C-42DE-9D29-E50A789E1EFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{236500DF-CBD5-4DC5-9BFF-456177AC2583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{236500DF-CBD5-4DC5-9BFF-456177AC2583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{236500DF-CBD5-4DC5-9BFF-456177AC2583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{236500DF-CBD5-4DC5-9BFF-456177AC2583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3806EE38-B738-4E37-A1B3-38456855DCBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3806EE38-B738-4E37-A1B3-38456855DCBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3806EE38-B738-4E37-A1B3-38456855DCBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3806EE38-B738-4E37-A1B3-38456855DCBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E25C0B95-B90C-42DE-9D29-E50A789E1EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E25C0B95-B90C-42DE-9D29-E50A789E1EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E25C0B95-B90C-42DE-9D29-E50A789E1EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E25C0B95-B90C-42DE-9D29-E50A789E1EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
