@@ -37,7 +37,10 @@ namespace Calculator.Controllers
                     model.Result = model.NumberA * model.NumberB;
                     break;
                 case Operation.Division:
-                    model.Result = model.NumberA / model.NumberB;
+                    if(model.NumberB != 0)
+                    {
+                        model.Result = model.NumberA / model.NumberB;
+                    }
                     break;
             }
             return View(model);
